@@ -1,0 +1,19 @@
+{
+  "name": "oa_web",
+  "version": "1.0.0",
+  "description": "projet option d'approfondissement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinSabatier/ING5-OA.git"
+  },
+  "author": "Robin Sabatier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobinSabatier/ING5-OA/issues"
+  },
+  "homepage": "https://github.com/RobinSabatier/ING5-OA#readme"
+}
