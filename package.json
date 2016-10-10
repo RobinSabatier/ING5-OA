@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RobinSabatier/ING5-OA/issues"
   },
-  "homepage": "https://github.com/RobinSabatier/ING5-OA#readme"
+  "homepage": "https://github.com/RobinSabatier/ING5-OA#readme",
+  "devDependencies": {
+    "should": "^11.1.0"
+  }
 }
