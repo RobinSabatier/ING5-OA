@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "projet option d'approfondissement",
   "main": "index.js",
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RobinSabatier/ING5-OA.git"
@@ -16,12 +15,17 @@
   "homepage": "https://github.com/RobinSabatier/ING5-OA#readme",
   "devDependencies": {},
   "scripts": {
-    "start": "./bin/start",
-     "test": "./bin/test"
+    "start": "call node_modules/bin/coffee src/app.coffee",
+    "test": "call node_modules/bin/mocha --compilers coffee:coffee-script/register test/*"
   },
   "dependencies": {
-    "should": "^11.1.0",
+    "body-parser": "^1.15.2",
+    "coffee-script": "^1.11.1",
+    "jstransformer-coffee-script": "^1.1.0",
+    "level": "^1.5.0",
+    "level-ws": "0.0.1",
     "mocha": "^3.1.1",
-    "coffee-script": "^1.11.1"
+    "pug": "^2.0.0-beta6",
+    "should": "^11.1.0"
   }
 }
